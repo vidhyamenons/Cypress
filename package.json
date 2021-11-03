@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "Demo": "cypress run --spec 'cypress/integration/Demo*.js'",
-    "all": "node_modules/.bin/cypress run"
+    "all": "node_modules/.bin/cypress run",
+    "greenkart": "cypress run --spec 'cypress/integration/Demo.js'"
   },
   "author": "Vidhya",
   "license": "ISC",
