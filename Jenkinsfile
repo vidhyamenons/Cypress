@@ -16,7 +16,7 @@ pipeline{
         }    
         stage('Testing'){
             steps{
-                sh npm run "$SCRIPT"
+                sh "npm run ${SCRIPT}"
                 }
             }
             stage('Deploying'){
