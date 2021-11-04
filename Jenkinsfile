@@ -3,7 +3,7 @@ pipeline{
     agent any
     
     parameters{
-        string(name: 'SPEC', defaultValue: "cypress/integration/examples", description: "Enter the script to run")
+        
         choice(name: 'SCRIPT', choices: ['greenkart', 'all'], description: "Select one")
     }
     stages{
