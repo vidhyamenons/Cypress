@@ -16,7 +16,7 @@ pipeline{
         }    
         stage('Testing'){
             steps{
-                sh "cypress run --headed --spec ${SPEC}"
+                sh npm run "$SCRIPT"
                 }
             }
             stage('Deploying'){
