@@ -8,7 +8,7 @@
     "cy:open": "cypress open",
     "Demo": "cypress run --spec 'cypress/integration/Demo*.js'",
     "all": "node_modules/.bin/cypress run",
-    "greenkart": "cypress run --spec 'cypress/integration/examples/Demo.js'"
+    "greenkart": "cypress run --headed --spec 'cypress/integration/examples/*.js'"
   },
   "author": "Vidhya",
   "license": "ISC",
